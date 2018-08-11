@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "page/map/map",
+    "page/index/index"
+  ],
+  "tabBar":{
+    "color": "#7a7e83",
+    "selectedColor": "#3cc51f",
+    "borderStyle":"black",
+    "backgroundColor":"#FFFFFF",
+    "list": [
+      {
+        "text": "地图",
+        "pagePath": "page/map/map"
+      },
+      {
+        "text": "天气",
+        "pagePath": "page/index/index"
+      }
+    ]
+  }
+}

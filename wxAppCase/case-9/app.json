@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "page/index/index"
+  ],
+  "networkTimeout": {
+    "request": 10000
+  }
+}

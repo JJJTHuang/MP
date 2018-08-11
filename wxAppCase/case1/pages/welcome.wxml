@@ -1,0 +1,6 @@
+<!--welcome.wxml-->
+<view>
+  <text>{{ profile.nickName }}</text>
+  <image src="{{ profile.avatarUrl }}" mode="widthFix" ></image>
+  <button open-type='getUserInfo' bindgetuserinfo='getProfile' >点击获取用户资料</button>
+</view>

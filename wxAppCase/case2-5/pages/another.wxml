@@ -1,0 +1,3 @@
+<!--pages/another.wxml-->
+<text>pages/another.wxml</text>
+<navigator url='index' > 作者 </navigator>

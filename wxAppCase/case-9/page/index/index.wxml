@@ -1,0 +1,73 @@
+<block wx:if="{{!isShowMedicalCard}}">
+  <button size='mini' bindtap='showMedicalCard' > 创建医疗急救卡 </button>
+</block>
+<view wx:else>
+  <form bindsubmit='formSubmit'>
+
+    <view>
+      <view>姓名:</view>
+      <input name="name" placeholder='请输入姓名' />
+    </view>
+
+    <view>
+      <view>性别:</view>
+      <radio-group name="gender">
+        <label><radio value='man'>男</radio></label>
+        <label><radio value='woman'>女</radio></label>
+      </radio-group>
+    </view>
+
+    <view>
+      <view>血型:</view>
+      <picker name="bloodType" bindchange='bloodTypeChange' range='{{bloodTypes}}' >
+        <view>当前选择: {{bloodTypes[index]}}</view>
+      </picker>
+    </view>
+
+    <view>
+      <view>选择医疗状况:</view>
+      <checkbox-group name="medicalConditions">
+        <label>
+          <checkbox
+          wx:for="{{medicalConditions}}"
+          wx:key="{{index}}" 
+          value='{{item.name}}' 
+          checked='{{item.checked}}' 
+          >{{item.name}}</checkbox>
+        </label>
+      </checkbox-group>
+    </view>
+
+    <view>
+      <view>填写服药情况: </view>
+      <textarea 
+        name="medicationCompliance"
+        placeholder='请填写服药情况'
+        auto-height='true'
+      ></textarea>
+    </view>
+
+    <view>
+      <view>请选择是否为器官捐献者: </view>
+      <switch name="isOrganDonor" ></switch>
+    </view>
+
+    <view>
+      <view>紧急联系人电话: </view>
+      <input 
+        name="phoneNumber" 
+        type='number'
+        bindinput='phoneNumberChange'
+        placeholder='请输入紧急联系人电话号码'
+      ></input>
+      <button 
+        size='mini'
+        bindtap='makePhoneCall'
+      >拨打联系人电话号码</button>
+    </view>
+
+    <button formType='submit' size='mini' hidden='{{isShowUpdate}}' >提交</button>
+    <button formType='submit' size='mini' hidden='{{!isShowUpdate}}' >修改</button>
+
+  </form>
+</view>

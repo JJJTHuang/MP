@@ -1,0 +1,16 @@
+<!--pages/index.wxml-->
+
+<block wx:for="{{articles}}" wx:for-index="idx" wx:for-item="article" wx:key="id">
+  
+  <view class='article {{article.isReaded ? "active" : ""}}' bindtap="toDetailPage" data-id="{{article.id}}" >
+    <image src='{{article.cover}}' mode="widthFix" ></image>
+    <view>
+      <view class='title' >{{ article.title }}</view>
+      <view class='description' >{{ article.description }}</view>
+    </view>
+  </view>
+  
+</block>
+<button type="default" plain="{{true}}" loading="{{loading}}" bindtap="loadMore" >
+  {{loadMoreText}}
+</button>

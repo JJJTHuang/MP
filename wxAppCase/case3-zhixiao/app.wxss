@@ -1,0 +1,135 @@
+/*  */
+@import '/assets/iconfont.wxss';
+
+.textInterval{
+  padding: 0 10rpx;
+}
+
+.atricle{
+  width: 680rpx;
+  margin: 50rpx auto;
+}
+.atricle .atricle-title{
+  font-size: 50rpx;
+  margin-bottom: 10rpx;
+}
+.atricle .atricle-small{
+  font-size: 38rpx;
+  margin-bottom: 10rpx;
+}
+.atricle .atricle-content{
+  font-size: 30rpx;
+  margin: 20rpx 0;
+}
+
+.desc-continer{
+  width: 680rpx;
+  margin: 0 auto;
+}
+.desc-continer .desc{
+  padding-bottom: 20rpx;
+}
+.desc-continer .desc, .desc-continer .tools{
+  border-bottom: 1px solid #e9e7f4;
+  font-size: 26rpx;
+  color: #797695;
+  padding: 30rpx 0;
+}
+.desc-continer .tools{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+.desc-continer .tools .text{
+  width: 260rpx;
+}
+.button-hover{ background: #fff; }
+.radiusBtn {
+  color: #707ACC;
+  display: inline-block;
+  font-size: 24rpx;
+  height: 60rpx;
+  background: #fff;
+  line-height: 60rpx;
+  border: 1rpx solid #707ACC;
+  border-radius: 50rpx;
+  margin: 0;
+}
+
+/* card 组件 */
+.card{
+  width: 680rpx;
+  margin: 0 auto;
+}
+.card .content{
+  height: 140px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 15rpx;
+  box-shadow: 0 0 30rpx rgba(91, 107, 203, .2);
+  margin: 20rpx auto 0;
+}
+
+/* title 组件 */
+.title{
+  border-left: 10rpx solid #5e72ef;
+  text-indent: 15rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+/* List 组件 */
+.list-continer{
+  width: 680rpx;
+  margin: 0 auto;
+}
+.list-continer .list{
+  width: 100%;
+}
+.list-continer .list .item{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  display: flex;
+  border-radius: 15rpx;
+  margin: 20rpx 0;
+  background: #e7e7e7;
+  box-sizing: border-box;
+  color: #6b68ab;
+}
+.list-continer .list .active{
+  background: #f7f7f7;
+  color: #000;
+}
+.list-continer .list .item view:nth-child(1){
+  flex: 1;
+  text-align: center;
+}
+.list-continer .list .item view:nth-child(1) image{
+  width: 45rpx;
+  height: 40rpx;
+  margin-top: 20rpx;
+}
+.list-continer .list .item view:nth-child(2){
+  flex: 5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list-continer .list .item view:nth-child(3){
+  flex: 2;
+  text-align: center;
+  font-size: 24rpx;
+  display: flex;
+  justify-content: center;
+  color: #6373e4;
+  align-content: center;
+}
+.list-continer .list .item view:nth-child(3) image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 20rpx;
+  padding-right: 15rpx;
+}

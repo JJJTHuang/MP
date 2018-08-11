@@ -1,0 +1,6 @@
+
+class app {
+  
+}
+
+App(app)

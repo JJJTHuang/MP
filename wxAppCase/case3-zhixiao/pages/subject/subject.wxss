@@ -1,0 +1,35 @@
+/* pages/subject.wxss */
+.subjectTitle{
+  background: #576CD1;
+  color: #f8f9fd;
+  display: flex;
+  flex-direction: row;
+  padding: 40rpx;
+  padding-bottom: 50rpx;
+  justify-content: space-between;
+  position: relative;
+}
+.subjectTitle .header view:nth-child(1){
+  font-size: 42rpx;
+}
+.subjectTitle .header view:nth-child(2){
+  font-size: 36rpx;
+}
+.subjectTitle .status{
+  opacity: .5;
+  font-size: 24rpx;
+  position: absolute;
+  bottom:55rpx;
+  right:40rpx;
+}
+
+.desc-continer{
+  margin: 50rpx auto;
+  margin-bottom: 60rpx;
+}
+.list-continer{
+  padding-bottom: 100rpx;
+}
+.list-continer .item:active{
+  opacity: .5;
+}

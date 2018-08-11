@@ -1,0 +1,123 @@
+
+
+.card{
+  margin-top: 80rpx;
+}
+
+/* pages/index.wxss */
+.home{
+  padding-bottom: 150rpx;
+}
+.home .titleCmp{
+  width: 750rpx;
+  height: 540rpx;
+  position: relative;
+}
+.home .titleCmp .back{
+  width: 750rpx;
+  height: 380rpx;
+}
+.home .titleCmp .card{
+  position: absolute;
+  top: 215rpx;
+  left: 35rpx;
+  margin: 0;
+}
+.home .titleCmp .content{
+  display: flex;
+}
+.home .titleCmp .content .icon-book{
+  font-size: 22rpx;
+}
+.home .titleCmp .content .col{
+  flex: 1;
+  font-size: 20rpx;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home .titleCmp .content .col:nth-child(2){
+  flex: 2.5;
+}
+.home .titleCmp .content .col .userPhoto{
+  margin: 40rpx auto;
+  display: block;
+}
+.home .titleCmp .content .col button{
+  font-size: 20rpx;
+}
+.home .titleCmp .content .userInfo{
+  margin: 40rpx auto 0;
+}
+.home .titleCmp .content .userInfo .nicname{
+  font-size: 36rpx; 
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-content: center; 
+}
+.home .titleCmp .content .userInfo .nicname .status{
+  color: #646cfd;
+  font-size: 24rpx;
+  line-height: 22rpx;
+  height: 24rpx;
+  background: #f1f1fd;
+  display: block;
+  padding: 5rpx 15rpx; 
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  font-weight: normal;
+  border-radius: 50rpx;
+}
+.home .titleCmp .content .radiusBtn{
+  position: absolute;
+  bottom: 40rpx;
+  right: 45rpx;
+}
+.home .titleCmp .content .userInfo .score{
+  color: #808291;
+  padding: 20rpx;
+  padding-left: 0;
+  font-size: 30rpx;
+}
+.home .titleCmp .content .userInfo .score text{
+  display: inline-block;
+}
+.home .titleCmp .content .userInfo .desc{
+  color: #343957;
+  font-size: 26rpx;
+}
+
+.home .titleCmp .userPhoto{
+  width: 150rpx;
+  height: 150rpx;
+}
+.home .option .content{
+  padding: 40rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.home .option .content .img{
+  width:220rpx;
+  position:absolute;
+  top:20rpx;
+  right:30rpx;
+}
+.home .option .header{
+  font-weight: bold;
+  font-size: 42rpx;
+  padding-bottom: 20rpx;
+}
+.home .option .desc{
+  color: #808291;
+  width: 340rpx;
+  font-size: 28rpx;
+}
+.home .option .radiusBtn{
+  position: absolute;
+  bottom: 47rpx;
+  width: 210rpx;
+  right:43rpx;
+  z-index: 2;
+  color: #fff;
+  background: #656EF9;
+}

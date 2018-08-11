@@ -1,0 +1,9 @@
+<view>
+  城市:{{path}}
+</view>
+<view>
+  天气情况:{{text}}
+</view>
+<view>
+  气温:{{temperature}}°
+</view>

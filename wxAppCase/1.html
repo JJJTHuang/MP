@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <button type="button" id="btn1" name="button">Btn</button>
+    <script type="text/javascript">
+      window.onload = function () {
+        var oBtn = document.getElementById('btn1')
+        oBtn.onclick = function () {
+          let w = window.open('http://www.baidu.com');
+          console.log(w)
+          setTimeout(() => {
+            w.location.href="http://www.qq.com"
+          }, 1000)
+        }
+      }
+    </script>
+</body></html>

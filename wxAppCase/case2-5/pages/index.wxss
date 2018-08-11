@@ -1,0 +1,27 @@
+/* pages/index.wxss */
+.article{
+  width: 700rpx;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.article image{ 
+  width: 700rpx;
+  display: block;
+  margin: 0 auto;
+}
+.active{
+  color: red;
+}
+.article .title{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.article .description{
+  font-size: 24rpx;
+}
+.checked .title{
+  color: #ccc;
+  font-weight: normal;
+}

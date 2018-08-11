@@ -1,0 +1,42 @@
+
+<view class='subjectTitle'>
+  <view class='header'>
+    <view>MinTraning</view>
+    <view>小程序开发课程</view>
+  </view>
+  <view class='status'>
+    <view>10章节</view>
+    <view>2小时</view>
+  </view>
+</view>
+
+<view class='desc-continer'>
+  <view class='title' >课程介绍</view>
+  <view class='desc'>
+    知晓课堂给予知晓程序丰富的实战开发经验，打造零基础入门，阶梯式学习的小程序实战课程。爱范儿CTO，知晓云负责人将在微信社群在线答疑指导。
+  </view>
+  <view class='tools'>
+    <view class='text'>课程中遇到的难题/难点, 请进群咨询交流 </view>
+    <button class='radiusBtn'>加入培训社群</button>
+  </view>
+</view>
+
+<view class='list-continer'>
+  <view class='title' >章节</view>
+  <view class='list' >
+    <block wx:for="{{list}}" wx:key="key" wx:item="item" wx:index="index" >
+      <view bindtap='toRead' class='item '>
+        <view><image src='/assets/lock.png'></image></view>
+        <view>第一章 ({{item}})主要讲的是如何快速搭建一个小程序</view>
+        <view>3/30 开放</view>
+      </view>
+    </block>
+    <block wx:for="{{list}}" wx:key="key" wx:item="item" wx:index="index" >
+      <view bindtap='toRead' class='item active'>
+        <view></view>
+        <view>第一章 ({{item}})主要讲的是如何快速搭建一个小程序</view>
+        <view><image src='/assets/check.png'></image>已完成</view>
+      </view>
+    </block>
+  </view>
+</view>

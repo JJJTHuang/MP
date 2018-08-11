@@ -1,0 +1,7 @@
+<!--pages/text.wxml-->
+<view> {{ article.title }} </view>
+<view> {{ article.description }} </view>
+<view> <image src=' {{ article.cover }} ' mode='widthFix' ></image> </view>
+<text>pages/text.wxml</text>
+<button open-type='share' >分享</button>
+<navigator url='another' > 作者 </navigator>

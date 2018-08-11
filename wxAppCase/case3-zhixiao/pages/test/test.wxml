@@ -1,0 +1,43 @@
+
+<view class='atricle'>
+  <view class='atricle-title'>第四章</view>
+  <view class='atricle-small'>在小程序里阅读文章（上）</view>
+  <view class='atricle-content'>
+  1.项目简介
+  这一章节，我将一步一步
+  </view>
+</view>
+
+<view class='desc-continer'>
+  <view class='title' >简介 组件</view>
+  <view class='desc'>
+    知晓课堂给予知晓程序丰富的实战开发经验，打造零基础入门，阶梯式学习的小程序实战课程。爱范儿CTO，知晓云负责人将在微信社群在线答疑指导。
+  </view>
+  <view class='tools'>
+    <view class='text'>课程中遇到的难题/难点, 请进群咨询交流 </view>
+    <button class='radiusBtn'>加入培训社群</button>
+  </view>
+</view>
+
+<view class='list-continer'>
+  <view class='title' >list 组件</view>
+  <view class='list' >
+    <view class='item '>
+      <view>
+        <image src='/assets/lock.png'></image>
+      </view>
+      <view>第一章 主要讲的是如何快速搭建一个小程序</view>
+      <view>3/30 开放</view>
+    </view>
+    <view class='item active'>
+      <view></view>
+      <view>第一章 主要讲的是如何快速搭建一个小程序</view>
+      <view><image src='/assets/check.png'></image>已完成</view>
+    </view>
+  </view>
+</view>
+
+<view class='card'>
+  <view class='title' >card 组件</view>
+  <view class='content'></view>
+</view>

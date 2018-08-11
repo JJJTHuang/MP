@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/welcome"
+  ],
+  "window": {
+    "navigationBarTitleText": "My Title"
+  }
+}

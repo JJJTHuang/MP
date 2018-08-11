@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/text",
+    "pages/another"
+  ],
+  "window": {
+    "navigationBarTitleText": "文章 test"
+  }
+}

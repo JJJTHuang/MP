@@ -1,0 +1,81 @@
+<view class='home'>
+  <view class='titleCmp'>
+    <image class='back' src='/assets/title.png'></image>
+    <view class='card'>
+      <view class='content'>
+        <view class='col'>
+          <image class='userPhoto' src='/assets/userPhoto.png' ></image>
+        </view>
+        <view class='userInfo col'>
+          <view class='nicname' ><view>昵称</view>
+            <view class='status'><text class='wx-icon icon-book'></text>状态</view>
+          </view>
+          <view class='score'>入学成绩<text class='textInterval' >50</text>分</view>
+          <view class='desc'>
+            <view >每日专家答疑</view>
+            <view >开发难点讲解</view>
+          </view>
+        </view>
+        <button class='radiusBtn'>加入培训社群</button>
+      </view>
+    </view>
+  </view>
+
+  <view class='card option'>
+    <view class='title' >微信小程序开发课程</view>
+    <view class='content'>
+      <view>
+        <view class='header'>MinTraning</view>
+        <view class='desc'>
+          <view>微信小程序开发培训课程</view>
+          <view>已更新<text class='textInterval'>4</text>课时<text class='textInterval'>|</text>已完成<text class='textInterval'>4</text>课时</view>
+        </view>
+      </view>
+      <button bindtap='continueLearn' class='radiusBtn'>继续学习</button>
+      <image class='img' mode='widthFix' src='/assets/img0.png'></image> 
+    </view>
+  </view>
+
+  <view class='card option'>
+    <view class='title' >水平测试</view>
+    <view class='content'>
+      <view>
+        <view class='header'>WeExam</view>
+        <view class='desc'>
+          <view>第一届微信小程序开发水平测试</view>
+        </view>
+      </view>
+      <button class='radiusBtn'>立刻测试</button>
+      <image class='img' mode='widthFix' src='/assets/img0.png'></image> 
+    </view>
+  </view>
+
+  <view class='card option'>
+    <view class='title' >WxGeek 大赛报名</view>
+    <view class='content'>
+      <view>
+        <view class='header'>WxGeek </view>
+        <view class='desc'>
+          <view>第一届微信小程序开发大赛参赛报名</view>
+        </view>
+      </view>
+      <button class='radiusBtn'>立即报名</button>
+      <image class='img' mode='widthFix' src='/assets/img0.png'></image> 
+    </view>
+  </view>
+
+  <view class='card option'>
+    <view class='content'>
+      <view>
+        <view class='header'>知晓云</view>
+        <view class='desc'>
+          <view>小程序开发的强力后盾</view>
+          <view>提供便捷云服务.</view>
+        </view>
+      </view>
+      <image class='img' mode='widthFix' src='/assets/img2.png'></image> 
+    </view>
+  </view>
+
+</view>
+

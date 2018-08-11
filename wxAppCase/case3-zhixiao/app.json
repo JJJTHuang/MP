@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/test/test",
+    "pages/index/index",
+    "pages/subject/subject",
+    "pages/subjectJnfo/subjectJnfo"
+  ],
+  "window": {
+    "navigationBarTitleText": "知晓程序",
+    "navigationBarBackgroundColor":"#576CD1",
+    "backgroundColor": "#f8f9fd"
+  }
+}
